@@ -20,8 +20,6 @@ searchProfile.addEventListener("keyup", (event) => {
                     ui.showProfile(res.profile[0]);
                     //ui.showTodo(res.profile);
                     ui.showTodo(res.todo);
-
-                    
                     //console.log(res.profile[0]);
                 }
             })
